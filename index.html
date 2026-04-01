@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>CactusTech</title>
@@ -7,28 +8,43 @@
 </head>
 <body>
 
-<div class="bg"></div>
+<div id="particles"></div>
 
-<header>
+<audio id="bgmusic" autoplay loop>
+<source src="assets/song.mp3" type="audio/mpeg">
+</audio>
+
+<div class="topbar">
 <img src="assets/logo.png" class="logo">
-<h1>CactusTech</h1>
-<p class="subtitle">technical minecraft server • 1.21.3</p>
-<nav>
+<div class="title">CACTUSTECH NETWORK</div>
+<div class="nav">
 <a href="index.html">home</a>
 <a href="stats.html">stats</a>
 <a href="map.html">map</a>
 <a href="gallery.html">gallery</a>
 <a href="music.html">music</a>
 <a href="join.html">join</a>
-</nav>
-</header>
+</div>
+</div>
 
-<section class="card">
-<h2>about</h2>
-<p>high-efficiency vanilla server with insane farms and systems.</p>
-</section>
+<div class="container">
 
-<footer>WIP - more soon :P</footer>
+<div class="panel">
+<h2>system</h2>
+<p>max efficiency farms</p>
+</div>
+
+<div class="panel">
+<h2>terminal</h2>
+<pre id="terminal"></pre>
+</div>
+
+<div class="panel">
+<h2>stats</h2>
+<div id="stats"></div>
+</div>
+
+</div>
 
 <script src="script.js"></script>
 </body>
