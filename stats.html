@@ -3,16 +3,40 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>stats</title>
 <link rel="stylesheet" href="style.css">
-</head>
+<title>Stats</title></head>
 <body>
-<div class="topbar"><a href="index.html">back</a></div>
+
+<div class="topbar">
+<img src="assets/logo.png" class="logo">
+<div class="title">CACTUSTECH NETWORK</div>
+<div class="nav">
+<a href="index.html">home</a>
+<a href="stats.html">stats</a>
+<a href="map.html">map</a>
+<a href="gallery.html">gallery</a>
+<a href="music.html">music</a>
+<a href="join.html">join</a>
+</div>
+</div>
+
+<audio id="bgmusic" autoplay loop>
+<source src="assets/song.mp3" type="audio/mpeg">
+</audio>
+
+
 <div class="container">
 <div class="panel">
-<h2>stats</h2>
-<p>WIP - will be completed soon :P</p>
+<h2>performance</h2>
+<div id="stats"></div>
+</div>
+
+<div class="panel">
+<h2>players</h2>
+<ul id="players"></ul>
 </div>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,17 +1,23 @@
 
 # CactusTech
 
-technical minecraft server site
+technical minecraft server interface
 
 ## setup
-- put logo in /assets/logo.png
-- put music in /assets/song.mp3
-- upload to github pages
+- add logo → /assets/logo.png
+- add music → /assets/song.mp3
+- upload repo as cactustech.github.io
 
-## notes
-- everything is client side
-- pages marked WIP will be expanded later
+## features
+- live terminal simulation
+- dynamic stats
+- join system base
+- gallery system
+- map embed ready
 
-## goal
-fast, clean, functional
-no bloat
+## todo
+- connect join form → webhook
+- add real map url
+- replace fake stats with real data
+
+clean base. no fluff.
